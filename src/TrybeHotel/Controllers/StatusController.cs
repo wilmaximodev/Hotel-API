@@ -7,6 +7,10 @@ namespace TrybeHotel.Controllers
     [Route("/")]
     public class StatusController : Controller
     {
-    
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(new { message = "online"});
+        }
     }
 }
