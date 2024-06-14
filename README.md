@@ -1,4 +1,3 @@
-markdown
 # Trybe Hotel
 
 ## 📜 O que foi desenvolvido
@@ -364,7 +363,6 @@ json
         }
       }
     }
-    ```
 
 ### GET /booking
 
