@@ -19,8 +19,8 @@ namespace TrybeHotel.Repository
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-        var connectionString = "Server=localhost;Database=TrybeHotel;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
-        optionsBuilder.UseSqlServer(connectionString);
+            string connectionString = "Server=localhost;Database=TrybeHotel;User=SA;Password=TrybeHotel12!;TrustServerCertificate=True";
+            optionsBuilder.UseSqlServer(connectionString);
         }
     
         protected override void OnModelCreating(ModelBuilder modelBuilder)
