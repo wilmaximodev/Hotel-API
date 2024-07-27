@@ -14,7 +14,7 @@ Foi desenvolvido um back-end em C# e ASP.NET Core para um software de booking pa
 
 1. Clone o repositório:
    bash
-   git clone git@github.com:jbeniciopp/Hotel-API.git
+   git clone github.com/wilmaximodev/Hotel-API.git
    
 
 2. Entre na pasta do repositório que você acabou de clonar:
