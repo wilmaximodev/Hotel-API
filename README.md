@@ -1,4 +1,4 @@
-# Trybe Hotel
+# Hotel-API
 
 ## 📜 O que foi desenvolvido
 
